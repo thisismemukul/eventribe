@@ -481,10 +481,19 @@
 				
 				
 				
-			<form action="https://formspree.io/f/xleawdnb" method="POST">
-				<label> Your name
-				<input type="text" name="_name">
-				</label>
+			<form id="contact-form" class="row" action="https://formspree.io/f/xleawdnb" method="POST">
+				
+				<div class="col-xs-12 col-sm-6">
+                                    <div class="form-group">
+					<label> Your name
+						<input id="contName" class="form form-control" placeholder="Your Name..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name...'" required="" type="text" name="_name">
+					</label>
+                                        <input type="text" >
+                                    </div>
+                                </div>
+				
+				
+				
 				<label> Your email:
 				<input type="email" name="_replyto">
 				</label>
