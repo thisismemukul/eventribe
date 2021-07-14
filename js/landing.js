@@ -1,6 +1,6 @@
 var eventTime = null
     // Uncomment the following line and specify your even time in GMT format similar to the example
-eventTime = new Date("15 July 2021 9:56:00 GMT+01:00");
+eventTime = new Date("21 July 2021 9:56:00 GMT+01:00");
 
 $(document).ready(function() {
     setInterval(function() { countdown(); }, 1000);
